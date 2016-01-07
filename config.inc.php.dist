@@ -1,0 +1,10 @@
+<?php
+
+	$config['identity_tweaks_prefix_identities'] = false;
+	$config['identity_tweaks_max_identities'] = 10;
+	$config['identity_tweaks_dissallowed_characters'] = '';
+	$config['identity_tweaks_dissallowed_names'] = array();
+	$config['identity_tweaks_dissallowed_users'] = array();
+	$config['identity_tweaks_trusted_users'] = array();
+
+?>

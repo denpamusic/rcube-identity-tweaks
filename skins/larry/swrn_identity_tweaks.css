@@ -1,0 +1,16 @@
+#identities-table tbody tr.first-alias td {
+	border-top: 1px solid #B0CCD7
+}
+
+#identities-table tbody tr:not(.alias) td {
+	background-color: #C7E3EF;
+	background-image: url(icon-mailbox.png);
+	background-position: 4px 1px;
+	background-repeat: no-repeat;
+	padding-left: 36px
+}
+
+#identities-table tbody tr:not(.alias).focused td {
+	background-color: transparent;
+	background-position: 4px -23px
+}
